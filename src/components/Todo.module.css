@@ -1,0 +1,61 @@
+.form {
+  
+}
+.header { 
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 203, 233, 1) 100%);
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.input { 
+    width: 350px;
+    height: 35px;
+}
+.button {
+    width: 50px;
+    height: 41px;
+    cursor: pointer;
+    
+}
+
+/* --------TodoList----------- */
+.box {
+    display: flex;
+}
+.div {
+    
+    border: 2px solid rgb(226, 62, 33);
+    border-radius: 5px;
+    color: rgb(86, 121, 234);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 203, 233, 1) 100%);
+    display: flex;
+
+    width: 400px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+.div2 {
+   cursor: pointer; 
+   position: absolute;
+   margin-left: 950px;
+   margin-top: 20px;
+   color: rgb(25, 23, 23);
+}
+.divComplete { 
+    position: relative;
+    border: 2px solid rgb(33, 226, 59);
+    border-radius: 5px;
+    color: rgb(86, 121, 234);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 203, 233, 1) 100%);
+    display: flex;
+    
+    width: 400px;
+    height: auto;
+    margin: 10px auto;
+    padding: 10px;
+}
