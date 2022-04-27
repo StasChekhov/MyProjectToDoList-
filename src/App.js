@@ -30,7 +30,6 @@ function App() {
       <header className={s.header}>
         <TodoForm
           addTask={addTask}
-          
           />
           <h1 style={{color: "rgb(113, 113, 182)"}}>Tasks: {todos.length}</h1>
       </header>
